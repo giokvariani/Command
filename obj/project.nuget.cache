@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "M3oDMC3ndO16pMqMXIw6WNYozRBlAiZIgZOrwlvcRdsaZtuy9VHTWzP/apUYHhAV2bQJQJCWAm5yjRL6ZhUBcw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\giorgi.kvariani\\source\\repos\\Command\\Command\\Command.csproj",
+  "expectedPackageFiles": [
+    "g:\\_NugetPackages_\\csharpfunctionalextensions\\2.15.3\\csharpfunctionalextensions.2.15.3.nupkg.sha512",
+    "g:\\_NugetPackages_\\microsoft.netcore.app.host.win-x64\\3.1.11\\microsoft.netcore.app.host.win-x64.3.1.11.nupkg.sha512"
+  ],
+  "logs": []
+}
