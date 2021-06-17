@@ -1,7 +1,6 @@
-﻿using Command.ModuleObjects;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace Command
+namespace Command.ModuleObjects
 {
     public class Personnel
     {

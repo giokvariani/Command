@@ -16,14 +16,14 @@ namespace Command
 
         public static IReadOnlyCollection<Type> GetAllChild() =>
             Assembly.GetAssembly(typeof(CommandBase))
-                .GetTypes()
+                ?.GetTypes()
                 .Where(theType => theType.IsClass && !theType.IsAbstract && theType.IsSubclassOf(typeof(CommandBase)))
                 .AsReadOnlyList();
         public string OrderNumber { get; set; }
 
         public int OrderNumberDigits { get; protected set; }
 
-        public Personnel Personnel { get; protected set; }
+        public Personnel Personnel { get; set; }
 
         public DateTime OrderDate { get; protected set; }
     }

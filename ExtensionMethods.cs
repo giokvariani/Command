@@ -10,8 +10,8 @@ namespace Command
         enumerable is List<T> listT
             ? listT
             : enumerable.ToList();
-        public static IReadOnlyCollection<T> AsReadOnlyList<T>(this IEnumerable<T> ienumerable)
-        => (ienumerable ?? Enumerable.Empty<T>()).AsList().AsReadOnly();
+        public static IReadOnlyCollection<T> AsReadOnlyList<T>(this IEnumerable<T> enumerable)
+        => (enumerable ?? Enumerable.Empty<T>()).AsList().AsReadOnly();
     }
 
     public class InvalidRecursiveOperationException : InvalidOperationException
